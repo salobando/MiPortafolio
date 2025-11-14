@@ -1,0 +1,32 @@
+body {
+    background: #ddd;
+    
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+.img1 {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 240px;
+    width: 200px;
+    border-radius: 45%;
+    border: 3px solid #fff; 
+    margin-top: -100px;    
+    overflow: hidden;
+}
+
+.card-text, .card-title{
+    padding: 10px 0;
+    text-align: center;
+}
