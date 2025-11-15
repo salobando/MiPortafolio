@@ -1,11 +1,30 @@
 body {
     background: #ddd;
-    
+    display: flex;
+    align-items: center;  
+    height: 100vh;             /* Ocupa toda la pantalla */
+    flex-direction: column;    /* Mantiene el h1 arriba */   
 }
 
 .card {
     overflow: hidden;
-    border-radius: 60px;
+    border-radius: 30px;
+    box-shadow:#9b9999;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-custom {
+    width: 21rem;
+}
+
+.card-body {
+    padding: 10px 0;
+    text-align:center;
 }
 
 .img1 {
@@ -18,15 +37,11 @@ body {
     position: relative;
     display: block;
     margin: auto;
-    height: 240px;
-    width: 200px;
-    border-radius: 45%;
-    border: 3px solid #fff; 
-    margin-top: -100px;    
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -100px;
     overflow: hidden;
 }
 
-.card-text, .card-title{
-    padding: 10px 0;
-    text-align: center;
-}
