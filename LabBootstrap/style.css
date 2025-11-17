@@ -1,0 +1,22 @@
+.navbar, footer{
+    background-color: rgba(99, 145, 231, 0.781);
+}
+.navbar-brand, .nav-link{
+    color: rgb(0, 0, 0) !important;
+}
+.nav-link:hover {
+  color: hsl(0, 0%, 100%) !important; 
+}
+section{
+    padding: 0px 40px;
+}
+
+#inicio {
+    display: flex;
+}
+
+.img-fija {
+    height: 250px;
+    width: 40%;
+    object-fit: cover;
+}
