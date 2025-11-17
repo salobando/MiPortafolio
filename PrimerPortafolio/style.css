@@ -1,0 +1,43 @@
+.navbar, footer{
+    background-color: rgba(99, 145, 231, 0.781);
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow:#9b9999;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-custom {
+    width: 21rem;
+}
+
+.card-body {
+    padding: 10px 0;
+    text-align:center;
+}
+
+.img1 {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.img2 {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
