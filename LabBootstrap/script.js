@@ -14,6 +14,10 @@ document.getElementById("btnagregar").addEventListener('click', function () {
         li.appendChild(span);
         document.getElementById('lista-tareas').append(li);
         document.getElementById("newtarea").value = "";
+        document.getElementById("alerta").classList.remove("d-none");
+        setTimeout(() => {
+            alerta.classList.add("d-none"); // ocultar después de 2 segundos
+        }, 1000);
     }
 })
 
