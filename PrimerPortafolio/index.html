@@ -8,58 +8,256 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg "> <!--lg para cambiar menu a boton-->
-        <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="#inicio">
-                Danna Sofia
-            </a>
-            <!-- Botón Hamburguesa -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbarMenu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#proy">Proyectos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-                </ul>
+
+    <header>
+        <nav class="navbar navbar-expand-lg border-bottom border-body fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#inicio">Bienvenid@s</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobremi">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tecnologias">Tecnologias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
+
 
     <section id="inicio">
-        <h1>Card de Presentación Personal</h1>
-        <br>
-        <div class="card card-custom">
-            <div class="img1">
-                <img src="img/fondo.png" class="card-img-top" alt="">
-            </div>
-            <div class="img2">
-                <img src="img/foto.jpeg" class="card-img-top" alt="">
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Danna Sofia Salamanca Obando</h5>
-                <h6>Desarroladora Backend </h6>
-                <br>
-                <p class="card-text">
-                    Con formación sólida en la creación de aplicaciones web y conocimientos en tecnologías frontend y
-                    backend.
-                    Apasionada por la innovación, las buenas prácticas y el desarrollo continuo.
+        <img src="/img/imgInicio.png" alt="inicio" class="unosceros">
+
+        <div class="nombre">
+            <p>Sofia Salamanca</p>
+        </div>
+        <div class="texto">
+            <h3 class="type primero">Hello world!!</h3>
+            <p class="type segundo">Soy Desarrolladora Web</p>
+        </div>
+    </section>
+
+    <section id="sobremi">
+        <h2 class="title">Sobre Mi</h2>
+
+        <div class="quiensoy">
+            <img src="/img/yo.png" alt="">
+            <div class="text-sobremi">
+                <h4>Desarrolladora Web FullStack</h4>
+                <p>
+                    Profesional en formación con experiencia en Java, JavaScript, Node.js, PHP, .NET, HTML, CSS y SQL.
+                    Creo
+                    aplicaciones y sitios web que brindan excelentes experiencias de usuario.
+                    Apasionada por la tecnología y el análisis de datos, trabajo con metodologías ágiles para crear
+                    soluciones
+                    eficientes, siempre enfocada en el trabajo en equipo y la mejora continua.
+                    <br><br>
+                    ¡Transformo ideas en soluciones digitales que marcan la diferencia!
                 </p>
-                <div>
+            </div>
+        </div>
+
+        <div class="experiencia">
+            <div class="educacion">
+                <h2>Educación</h2>
+                <div class="cursos">
+                    <p class="fecha">📆 En curso</p>
+                    <h5 class="titulo-curso">Ingeniería Telemática</h5>
+                    <p class="institucion">Universidad Distrital Francisco José de Caldas</p>
                 </div>
-                <a href="https://github.com/salobando" class="btn btn-primary" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/danna-sofia-salamanca-obando-desarrolladora-fullstack/"
-                    class="btn btn-primary" target="_blank">LinkedIn</a>
-                <a href="salobando2023@gmail.com" class="btn btn-primary" target="_blank">Email</a>
+                <div class="cursos">
+                    <p class="fecha">📆 Octubre 2025 - Enero 2026</p>
+                    <h5 class="titulo-curso">Desarrollador Junior FullStack</h5>
+                    <p class="institucion">Generation Corte 10</p>
+                </div>
+                <div class="cursos">
+                    <p class="fecha">📆 Marzo 2021 - Mayo 2025</p>
+                    <h5 class="titulo-curso">Tecnología en Sistematización de Datos</h5>
+                    <p class="institucion">Universidad Distrital Francisco José de Caldas</p>
+                </div>
+            </div>
+            <div class="educacion">
+                <h2>Proyectos</h2>
+                <div class="cursos">
+                    <p class="fecha">📆 En curso</p>
+                    <h5 class="titulo-curso">Ingeniería Telemática</h5>
+                    <p class="institucion">Universidad Distrital Francisco José de Caldas</p>
+                </div>
+                <div class="cursos">
+                    <p class="fecha">📆 Octubre 2025 - Enero 2026</p>
+                    <h5 class="titulo-curso">Desarrollador Junior FullStack</h5>
+                    <p class="institucion">Generation Corte 10</p>
+                </div>
+                <div class="cursos">
+                    <p class="fecha">📆 Marzo 2021 - Mayo 2025</p>
+                    <h5 class="titulo-curso">Tecnología en Sistematización de Datos</h5>
+                    <p class="institucion">Universidad Distrital Francisco José de Caldas</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <section id="tecnologias">
+        <h2 class="title">Mis Skills</h2>
+        <div class="skills">
+            <div class="iconos">
+                <img src="/img/html-5.png" alt="html">
+                <p>HTML</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/CSS.png" alt="html">
+                <p>CSS</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/js.png" alt="html">
+                <p>JavaScript</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/python.png" alt="html">
+                <p>Python</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/php.png" alt="html">
+                <p>PHP</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/c++.png" alt="html">
+                <p>C++</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/Csharp.png" alt="html">
+                <p>C#</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/mysql.png" alt="html">
+                <p>MySQL</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/git.png" alt="html">
+                <p>Git</p>
+            </div>
+            <div class="iconos">
+                <img src="/img/github.png" alt="html">
+                <p>GitHub</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos">
+        <h2 class="title">Proyectos</h2>
+        <div class="card_proy">
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2 class="title">Contáctame</h2>
+        <p>Ponte en contacto conmigo a través de mis redes sociales o envíame un correo electrónico.</p>
+        <div class="formas-contacto">
+            <div class="redes">
+                <h4>Email</h4>
+                <p>📧salobando2023@gmail.com</p>
+                <a href="www.linkedin.com/in/danna-sofia-salamanca-obando-desarrolladora-fullstack" class="icon-circle"
+                    aria-label="Whatsapp"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+                <a href="https://github.com/salobando" class="icon-circle" aria-label="GitHub"><i
+                        class="bi bi-github"></i>GitHub</a><br>
+                <a href="#" class="icon-circle" aria-label="Whatsapp"><i class="bi bi-whatsapp"></i>WhatsApp</a>
+            </div>
+            <div class="mensaje">
+                <h4>Enviame tu mensaje</h4>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+                <label for="">Correo</label>
+                <input type="text" name="correo" id="correo">
+                <label for="">Mensaje</label>
+                <input type="text" name="Mensaje" id="Mensaje">
+            </div>
+        </div>
+    </section>
+
+    <!-- Boton Whatsapp flotante -->
+    <a href="https://wa.me/573008833628?text=Hola,%20me%20gusto%20tu%20portafolio!" class="whatsapp-float"
+        target="_blank" aria-label="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
     <footer>
         <div class="container">
@@ -89,6 +287,11 @@
 
         </div>
     </footer>
+
+    <script src="sricpt.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
