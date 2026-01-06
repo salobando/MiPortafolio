@@ -199,7 +199,8 @@ body {
 .experiencia {
     display: flex;           
     gap: 30px;             
-    flex-wrap: wrap;     
+    flex-wrap: wrap;
+    margin-top: 50px;     
 }
 
 .experiencia div { 
@@ -258,7 +259,7 @@ body {
 }
 
 .skills {
-    padding: 30px 25%;
+    padding: 40px 20%;
     text-align: center;
     display: flex;   
     flex-wrap: wrap;         
@@ -269,14 +270,25 @@ body {
 .iconos{
     flex-direction: column;         
     align-items: center;
-    margin: 10px;             
+    margin: 10px;       
 }
 
-.iconos img{
-    width: 80px;
-    height: 80px;
+.iconos_img{
+    width: 90px;
+    height: 90px;
     object-fit: contain;
     margin-bottom: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+
+}
+
+.iconos_img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    border-color: #4f46e5;
 }
 
 #proyectos{
